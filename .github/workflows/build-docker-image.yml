@@ -44,5 +44,5 @@ jobs:
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=HTTP Server
             org.opencontainers.image.licenses=MIT
-          cache-from: type=gha
+          cache-from: type=yb
           cache-to: type=gha,mode=max
